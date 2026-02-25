@@ -21,7 +21,10 @@ Database: MongoDB (via Mongoose)
 
 Authentication: Google OAuth 2.0, JWT (jsonwebtoken)
 
-* 📂 Project Structure 
+### 📂 Project Structure
+
+```text
+.
 ├── Backend/
 │   ├── src/
 │   │   ├── config/       # Database connection
@@ -30,8 +33,8 @@ Authentication: Google OAuth 2.0, JWT (jsonwebtoken)
 │   │   ├── routes/       # Auth API endpoints
 │   │   ├── services/     # Business logic for OAuth
 │   │   └── utils/        # Google API configuration
-├── Frontend/
-│   ├── src/
-│   │   ├── components/   # Auth Wrappers
-│   │   ├── pages/        # Home, Auth, and NotFound pages
-│   │   └── lib/          # API/Axios configuration
+└── Frontend/
+    ├── src/
+    │   ├── components/   # Auth Wrappers
+    │   ├── pages/        # Home, Auth, and NotFound pages
+    │   └── lib/          # API/Axios configuration
